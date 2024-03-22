@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Engine">
+      <UniqueIdentifier>{42eea8e2-c523-40eb-aa2b-71b15b8d094b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Graphics">
+      <UniqueIdentifier>{6085d5ad-3c66-478e-955f-340c43a523a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Managers">
+      <UniqueIdentifier>{659c991b-0477-4270-be0f-f7c99d6e6984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{a2d97a6a-7abd-431a-9fef-e22912fd0947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component">
+      <UniqueIdentifier>{e472a20d-fb90-4f2e-a26f-d244778341be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Engine\Resource">
+      <UniqueIdentifier>{d188278f-dbab-44fa-bab5-5ba4686575d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Graphics\Buffer">
+      <UniqueIdentifier>{790fe233-c16c-48ff-ab4f-fa6a8cc4c511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Graphics\Shader">
+      <UniqueIdentifier>{018dd310-b237-4866-9ed8-34175423cda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Fixed">
+      <UniqueIdentifier>{295e276f-c2fe-4a5f-b070-33a7a00c3b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Engine\Resource\Model">
+      <UniqueIdentifier>{bd7b0f9c-ef87-4059-a3f0-8dd7cee03442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Headers">
+      <UniqueIdentifier>{54d14474-30de-4c39-b064-15d7ee535bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Utils">
+      <UniqueIdentifier>{ee3c9157-0f33-47a7-bf6c-a497f7a33534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Controller">
+      <UniqueIdentifier>{97341dca-84e0-44b6-832d-684113424cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Unit">
+      <UniqueIdentifier>{5874a3fc-72a4-4c89-b124-7413c64e4cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Unit\PlayableUnit">
+      <UniqueIdentifier>{8d010ad0-d0be-489f-b771-5d2554540710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Unit\EnemyUnit">
+      <UniqueIdentifier>{9968aebb-d016-4d42-825e-a4bcdae6b7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Scripts">
+      <UniqueIdentifier>{03c24022-4f35-4037-9ced-1eb5ea1706c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Managers\GUI">
+      <UniqueIdentifier>{368b69bf-9bae-4514-8cd0-eb5e74f8b014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Colision">
+      <UniqueIdentifier>{fa4b7f4d-a8f7-44b8-afca-ccfc8a9e6278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item">
+      <UniqueIdentifier>{97e872cd-cf84-487d-bb20-38bde4e90fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Equipment">
+      <UniqueIdentifier>{ef9c8c0d-dc4b-46ca-b750-3a7d607ea280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Equipment\LeftShoulder">
+      <UniqueIdentifier>{326db383-f3cc-4488-9bfa-14189e9dd5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Equipment\Helm">
+      <UniqueIdentifier>{ca1e9602-aa27-4cf7-967d-336fb038d7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Equipment\Belt">
+      <UniqueIdentifier>{e15beacc-9704-48e6-9fe4-325d8bf68c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Equipment\RightShoulder">
+      <UniqueIdentifier>{b2435a15-715e-41c2-af58-f50a086cf653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Equipment\Shield">
+      <UniqueIdentifier>{504a4117-f438-4cc9-aec2-8fe92aa3569d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Equipment\Weapon">
+      <UniqueIdentifier>{9c613a33-0c57-4f69-b0ec-4772d318d277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\Item\Consumable">
+      <UniqueIdentifier>{e4d8fcb8-2410-4ec7-946e-c7122d82bd1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\ItemData">
+      <UniqueIdentifier>{87a56f64-0269-47a5-b495-dc8a05cca15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\ItemData\Equipment">
+      <UniqueIdentifier>{ace111dd-dc32-4530-9e82-a56f0c5351f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\ItemData\Consumable">
+      <UniqueIdentifier>{350dee07-ca36-4587-88d7-0b2be9b2163b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\ItemData\Equipment\Warrior">
+      <UniqueIdentifier>{b11f81a0-a762-4f8e-8a38-75c8bed4b3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Particle">
+      <UniqueIdentifier>{334a19d2-d11f-49b0-9e1e-44b9dfb835df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM">
+      <UniqueIdentifier>{6ee66613-00d8-4f97-95bc-5589b0d2b6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Ability">
+      <UniqueIdentifier>{4d2cf066-bc5d-4b21-9fb4-c90afe6dc14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Ability\Warrior">
+      <UniqueIdentifier>{4a66deb7-8ab7-4993-a237-40b51baca287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Ability\BaronGeddon">
+      <UniqueIdentifier>{330c491c-efe3-4163-bd8e-545c8d902181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Ability\Ragnaros">
+      <UniqueIdentifier>{c5b75787-4151-4a50-9e9e-e1300016a730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\Character">
+      <UniqueIdentifier>{ecb2a4f5-82c6-4049-aeca-b390ada6136b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Particle">
+      <UniqueIdentifier>{8a58d2e5-0ffc-49ab-81d7-923e73baa142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern">
+      <UniqueIdentifier>{df8d92f9-3cd1-43a0-848a-a63c92a14a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern\Normal">
+      <UniqueIdentifier>{12d3a68d-52f6-454c-bf34-582608c6ae2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern\Normal\CoreHound">
+      <UniqueIdentifier>{ae0e9b62-e85c-4d56-909e-23d56d563c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern\Normal\MoltenGaint">
+      <UniqueIdentifier>{c9bb7faf-242f-4bfc-9e1d-03c0f92aca3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern\Elite">
+      <UniqueIdentifier>{7b6e6d38-8e11-4aaf-8458-bf551a2c2051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern\Elite\BaronGeddon">
+      <UniqueIdentifier>{4859985a-0565-46b4-ad47-42369a181ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern\Boss">
+      <UniqueIdentifier>{c7fb2e9b-8502-40d2-8f6e-2104adf07f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Component\FSM\Pattern\Boss\Ragnaros">
+      <UniqueIdentifier>{b638fe95-0eee-4be9-b378-6fc706bb0f98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePch.h">
+      <Filter>05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>06. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>06. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>06. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase.h">
+      <Filter>00. Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>00. Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryHelper.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IExecute.h">
+      <Filter>00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Pass.h">
+      <Filter>01. Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Technique.h">
+      <Filter>01. Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>01. Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>04. Component\Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>04. Component\Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>00. Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>04. Component\Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>00. Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>06. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderer.h">
+      <Filter>04. Component\Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMesh.h">
+      <Filter>00. Engine\Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimation.h">
+      <Filter>00. Engine\Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>00. Engine\Resource\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimator.h">
+      <Filter>04. Component\Fixed</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaData.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyFactory.h">
+      <Filter>06. Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.h">
+      <Filter>03. GameObject\Unit\PlayableUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayableUnit.h">
+      <Filter>03. GameObject\Unit\PlayableUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimState.h">
+      <Filter>04. Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>04. Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>03. GameObject\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyUnit.h">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHound.h">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController.h">
+      <Filter>04. Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="InstancingManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancingBuffer.h">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>04. Component\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Plain.h">
+      <Filter>04. Component\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainHeightAdder.h">
+      <Filter>04. Component\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustomCamera.h">
+      <Filter>04. Component\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>05. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>00. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>01. Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>01. Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIInterface.h">
+      <Filter>02. Managers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiManager.h">
+      <Filter>02. Managers\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCollider.h">
+      <Filter>04. Component\Colision</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>04. Component\Colision</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>04. Component\Colision</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightGetter.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h" />
+    <ClInclude Include="SoundManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>00. Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentSlot.h">
+      <Filter>04. Component\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsumableItem.h">
+      <Filter>03. GameObject\Item\Consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="BaronGeddon.h">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemData.h">
+      <Filter>04. Component\ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSoundController.h">
+      <Filter>04. Component\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySoundController.h">
+      <Filter>04. Component\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="SpringArm.h">
+      <Filter>04. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>03. GameObject\Item\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientSword.h">
+      <Filter>03. GameObject\Item\Equipment\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientSwordData.h">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientShieldData.h">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientRShoulderData.h">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientLShoulderData.h">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientHelmData.h">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientBeltData.h">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientHelm.h">
+      <Filter>03. GameObject\Item\Equipment\Helm</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientBelt.h">
+      <Filter>03. GameObject\Item\Equipment\Belt</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientLShoulder.h">
+      <Filter>03. GameObject\Item\Equipment\LeftShoulder</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientRShoulder.h">
+      <Filter>03. GameObject\Item\Equipment\RightShoulder</Filter>
+    </ClInclude>
+    <ClInclude Include="AncientShield.h">
+      <Filter>03. GameObject\Item\Equipment\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticCollider.h">
+      <Filter>04. Component\Colision</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFSM.h">
+      <Filter>04. Component\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilitySlot.h">
+      <Filter>04. Component\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>04. Component\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilityData.h">
+      <Filter>04. Component\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorCharge.h">
+      <Filter>04. Component\Ability\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorRoarData.h">
+      <Filter>04. Component\Ability\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorChargeData.h">
+      <Filter>04. Component\Ability\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleInstance.h">
+      <Filter>04. Component\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObj.h">
+      <Filter>04. Component\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleRenderer.h">
+      <Filter>04. Component\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterInfo.h">
+      <Filter>04. Component\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorRoar.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Clap.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="FireStorm.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSpark.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicCircle.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Polar.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke1.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke2.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke3.h">
+      <Filter>07. Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitStrategy.h">
+      <Filter>04. Component\FSM\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="BaronGeddonPattern.h">
+      <Filter>04. Component\FSM\Pattern\Elite\BaronGeddon</Filter>
+    </ClInclude>
+    <ClInclude Include="RagnarosPattern.h">
+      <Filter>04. Component\FSM\Pattern\Boss\Ragnaros</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHoundPattern.h">
+      <Filter>04. Component\FSM\Pattern\Normal\CoreHound</Filter>
+    </ClInclude>
+    <ClInclude Include="MoltenGaintPattern.h">
+      <Filter>04. Component\FSM\Pattern\Normal\MoltenGaint</Filter>
+    </ClInclude>
+    <ClInclude Include="MoltenGaint.h">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Ragnaros.h">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>05. Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>06. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>06. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>06. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceBase.cpp">
+      <Filter>00. Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>00. Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryHelper.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexData.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IExecute.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Pass.cpp">
+      <Filter>01. Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Technique.cpp">
+      <Filter>01. Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>01. Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>05. Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>04. Component\Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>04. Component\Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>00. Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>04. Component\Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>00. Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>06. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRenderer.cpp">
+      <Filter>04. Component\Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMesh.cpp">
+      <Filter>00. Engine\Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimation.cpp">
+      <Filter>00. Engine\Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>00. Engine\Resource\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimator.cpp">
+      <Filter>04. Component\Fixed</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaData.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyFactory.cpp">
+      <Filter>06. Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>03. GameObject\Unit\PlayableUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayableUnit.cpp">
+      <Filter>03. GameObject\Unit\PlayableUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimState.cpp">
+      <Filter>04. Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>04. Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>03. GameObject\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyUnit.cpp">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreHound.cpp">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController.cpp">
+      <Filter>04. Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="InstancingManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancingBuffer.cpp">
+      <Filter>01. Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>04. Component\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Plain.cpp">
+      <Filter>04. Component\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PlainHeightAdder.cpp">
+      <Filter>04. Component\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustomCamera.cpp">
+      <Filter>04. Component\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>00. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>01. Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>01. Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIInterface.cpp">
+      <Filter>02. Managers\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiManager.cpp">
+      <Filter>02. Managers\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCollider.cpp">
+      <Filter>04. Component\Colision</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>04. Component\Colision</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>04. Component\Colision</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightGetter.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp" />
+    <ClCompile Include="EquipmentSlot.cpp">
+      <Filter>04. Component\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsumableItem.cpp">
+      <Filter>03. GameObject\Item\Consumable</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>00. Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="BaronGeddon.cpp">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemData.cpp">
+      <Filter>04. Component\ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySoundController.cpp">
+      <Filter>04. Component\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSoundController.cpp">
+      <Filter>04. Component\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="SpringArm.cpp">
+      <Filter>04. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>03. GameObject\Item\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientSword.cpp">
+      <Filter>03. GameObject\Item\Equipment\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientSwordData.cpp">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientShieldData.cpp">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientRShoulderData.cpp">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientLShoulderData.cpp">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientHelmData.cpp">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientBeltData.cpp">
+      <Filter>04. Component\ItemData\Equipment\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientHelm.cpp">
+      <Filter>03. GameObject\Item\Equipment\Helm</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientBelt.cpp">
+      <Filter>03. GameObject\Item\Equipment\Belt</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientLShoulder.cpp">
+      <Filter>03. GameObject\Item\Equipment\LeftShoulder</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientRShoulder.cpp">
+      <Filter>03. GameObject\Item\Equipment\RightShoulder</Filter>
+    </ClCompile>
+    <ClCompile Include="AncientShield.cpp">
+      <Filter>03. GameObject\Item\Equipment\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticCollider.cpp">
+      <Filter>04. Component\Colision</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFSM.cpp">
+      <Filter>04. Component\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="AbilitySlot.cpp">
+      <Filter>04. Component\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability.cpp">
+      <Filter>04. Component\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="AbilityData.cpp">
+      <Filter>04. Component\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="WarriorCharge.cpp">
+      <Filter>04. Component\Ability\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="WarriorRoarData.cpp">
+      <Filter>04. Component\Ability\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="WarriorChargeData.cpp">
+      <Filter>04. Component\Ability\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleInstance.cpp">
+      <Filter>04. Component\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObj.cpp">
+      <Filter>04. Component\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleRenderer.cpp">
+      <Filter>04. Component\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterInfo.cpp">
+      <Filter>04. Component\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="WarriorRoar.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Clap.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="FireStorm.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSpark.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCircle.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Polar.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke1.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke2.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke3.cpp">
+      <Filter>07. Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitStrategy.cpp">
+      <Filter>04. Component\FSM\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="BaronGeddonPattern.cpp">
+      <Filter>04. Component\FSM\Pattern\Elite\BaronGeddon</Filter>
+    </ClCompile>
+    <ClCompile Include="RagnarosPattern.cpp">
+      <Filter>04. Component\FSM\Pattern\Boss\Ragnaros</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreHoundPattern.cpp">
+      <Filter>04. Component\FSM\Pattern\Normal\CoreHound</Filter>
+    </ClCompile>
+    <ClCompile Include="MoltenGaintPattern.cpp">
+      <Filter>04. Component\FSM\Pattern\Normal\MoltenGaint</Filter>
+    </ClCompile>
+    <ClCompile Include="MoltenGaint.cpp">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="Ragnaros.cpp">
+      <Filter>03. GameObject\Unit\EnemyUnit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleMath.inl">
+      <Filter>06. Utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>
